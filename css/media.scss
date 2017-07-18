@@ -1,0 +1,239 @@
+@media (max-width: 992px){
+	html, body{
+		font-size: 16px;
+	}
+	.base{
+			width: 8.88em;
+	}
+	header{
+
+		nav{
+			.bar{
+				display: block;
+			}
+			.menu{
+				display: none;
+			}
+		}
+		#carousels{
+			.slaid{
+				.slaider-text{
+					font-size: 16px;
+				}
+			}
+		}	
+	}
+	#download{
+		p{
+			font-size: 2.8rem;
+		}
+	}	
+}
+
+@media (max-width: 768px) and (orientation: landscape){
+	.base{
+			width: 8.88em;
+		}
+	header{
+		nav{
+			.sub-nav{
+				width: 40%;
+				ul{
+					li{
+						margin: 1rem;
+					}
+				}
+			}
+		}
+		#carousels{
+			.slaid{
+				.slaider-text{
+					font-size: 14px;
+					h2{
+						font-size: 1.3rem;
+					}
+					p{
+						font-size: 0.7rem;
+
+					}
+				}
+			}
+		}
+	}
+	.slick-prev:before{
+		font-size: 2rem;
+	}
+	.slick-next:before{
+		font-size: 2rem;
+	}
+	#prices{
+		.active-prices{
+			margin-top: 0;
+			.active-col{
+				line-height: 3;
+			}
+		}
+		 
+	}
+	#testimonials{
+		#slicks{
+			width: 80%;
+		}
+	}
+	#download{
+		p{
+			font-size: 1.8rem;
+		}
+	}
+	#contact{
+		.contact-data{
+			width: 55%;
+		}
+	}
+}
+@media (max-width: 570px) and (orientation: landscape){
+	.base{
+		width: 8em;
+	}
+	header{
+
+		nav{
+			.sub-nav{
+				width: 50%;
+				ul{
+					li{
+						margin: 0.8rem;
+					}
+				}
+			}
+		}
+		#carousels{
+			.slaid{
+				.slaider-text{
+					font-size: 12px;
+					h2{
+						font-size: 1.5em;
+						margin-bottom: 1rem;
+
+					}
+					p{
+						display: none;
+					}
+				}
+			}
+			
+		}
+	}
+	#prices{
+		.basic p{
+			line-height: 1.7;
+		}
+	}
+	#testimonials{
+		#slicks{
+			width: 100%;
+		}
+	}
+	#download{
+		p{
+			font-size: 1.7rem;
+		}
+	}
+	#contact{
+		.contact-data{
+			width: 60%;
+		}
+	}
+}
+@media (max-width: 430px){
+	html, body {
+		font-size: 16px;
+	}
+	.base{
+		width: 8.88em;
+	}
+	header{
+
+		nav{
+			.sub-nav{
+				width: 100%;
+			}
+		}
+		#carousels{
+			.slaid{
+				.slaider-text{
+					font-size: 10px;
+					h2{
+						font-size: 1.3em;
+					}
+				}
+			}
+		}
+	}
+	#testimonials{
+		#slicks{
+			width: 100%;
+		}
+	}
+	#download{
+		p{
+			font-size: 1.5rem;
+		}
+	}
+	#contact{
+		.contact-data{
+			width: 65%;
+		}
+	}
+}
+@media (max-width: 380px){
+	html, body {
+		font-size: 14px;
+	}
+	.base{
+		width: 8.88em;
+	}
+	header{
+
+		nav{
+			.sub-nav{
+				width: 100%;
+			}
+		}
+		#carousels{
+			.slaid{
+				.slaider-text{
+					font-size: 8px;
+					h2{
+						font-size: 1em;
+					}
+				}
+			}
+		}
+	}
+	#testimonials{
+		#slicks{
+			width: 100%;
+		}
+	}
+	#download{
+		p{
+			font-size: 1.4rem;
+		}
+	}
+	#contact{
+		.contact-data{
+			width: 80%;
+		}
+	}
+	footer{
+		span{
+			display: block;
+			text-align: center;
+			line-height: 2.5;
+		}
+		.copy{
+			float: none;
+		}
+	}
+}

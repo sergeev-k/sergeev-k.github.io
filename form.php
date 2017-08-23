@@ -1,17 +1,17 @@
 <?php 
 if (!empty($_POST['name']) AND !empty($_POST['email']) AND !empty($_POST['message'])){
   
-  $headers = 'From: Сергеев Константин\r\n'.
-             'Reply-To: KonstantinSergeevJob@gmail.com\r\n'.
+  $headers = 'From: Сергеев Константин'.PHP_EOL.
+             'Reply-To: tyrist268@gmail.com'.PHP_EOL.
               'X-Mailer: PHP/'. phpversion();
              
   $theme = 'Новое сообщение';
 
-  $letter = 'Данные сообщения:\r\n';
-  $letter .='Имя: '.$_POST['name'].'\r\n';
-  $letter .='Email: '.$_POST['email'].'\r\n';
-  $letter .='Предмет: '.$_POST['subject'].'\r\n';
-  $letter .='Сообщение: '.$_POST['message'].'\r\n';
+  $letter = 'Данные сообщения:'.PHP_EOL;
+  $letter .='Имя: '.$_POST['name'].PHP_EOL;
+  $letter .='Email: '.$_POST['email'].PHP_EOL;
+  $letter .='Предмет: '.$_POST['subject'].PHP_EOL;
+  $letter .='Сообщение: '.$_POST['message'].PHP_EOL;
   
   if (mail('KonstantinSergeevJob@gmail.com', $theme, $letter, $headers)){
     echo "Сообщение отправлено!";
